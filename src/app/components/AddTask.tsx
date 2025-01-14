@@ -1,8 +1,11 @@
-import * as React from 'react'
+import React from 'react'
 
 const AddTask = () => {
   return (
-    <div>aaa</div>
+    <form className='mb-4 space-y-3'>
+      <input type="text" className='w-full border px-4 py-2 rounded-lg focus:outline-none focus:border-blue-400' />
+      <button className='w-full px-4 py-2 text-white bg-blue-500 rounded transform hover:bg-blue-400 hover:scale-95 duration-300'>Add Task</button>
+    </form>
   )
 }
 
